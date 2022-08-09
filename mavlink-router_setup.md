@@ -25,7 +25,7 @@ cd mavlink-router
 git submodule update --init
 meson setup build .
 ninja -C build
-ninja -C build install
+sudo ninja -C build install
 ```
 # 設定ファイルの作成
 ```
