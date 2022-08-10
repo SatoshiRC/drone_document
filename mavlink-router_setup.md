@@ -11,8 +11,10 @@ sudo apt install git
 sudo apt install meson
 sudo apt install ninja-build
 ```
-pythonのmesonをインストールする.
+pythonのmesonをインストールする.  
+OSによっては`pip`がデフォルトではインストールされていないので手動でインストールする必要がある．
 ```
+sudo apt-get -y install python3-pip
 sudo pip3 install meson
 ```
 以上で，mavlink-routerをインストールする準備が完了した．
