@@ -58,3 +58,6 @@ std::shared_ptr<std::thread> thread_ARTag;
 std::shared_ptr<std::thread> thread_Line;
 bool isAutoMode;
 ```
+
+画像処理結果はオドメトリとして送信できる形にしたい．  
+ARマーカーを認識しているときはARマーカーから得られる位置情報を優先する．
